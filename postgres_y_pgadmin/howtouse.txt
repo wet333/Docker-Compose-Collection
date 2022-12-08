@@ -1,0 +1,13 @@
+docker-compose up --> will start a postgres database and the pgAdmin.
+
+PgAdmin:
+    the pgadmin will be listening in the https://localhost:80 .
+
+    the environment variables will be the login credentials for pgadmin.
+
+
+Postgres:
+    postgres will be listening in the default port.
+
+    user: root
+    password: password
